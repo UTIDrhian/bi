@@ -320,7 +320,7 @@ p, address {
 
 .tm-welcome-section {
   margin: 60px auto;
-  max-width: 655px;
+  width: 90%;
 }
 
 .tm-section-title {
@@ -393,6 +393,9 @@ p, address {
 
 .tm-gallery-img {
   margin-bottom: 20px;
+  width: auto;
+  height: 14rem;
+  object-fit: cover;
 }
 
 .tm-gallery-title {
