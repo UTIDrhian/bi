@@ -82,16 +82,37 @@
 					$bahan = $this->db->query("SELECT * FROM informasi WHERE kategori = 'Bahan'")->result();
 					foreach ($bahan as $b) {
 						?>
-
+					<a href="#" data-toggle="modal" data-target=".bd-example-modal-lg<?php echo $b->id; ?>" style="text-decoration: none;">
 						<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-							<figure>
+							<figure class="galeri-desain">
 								<img src="<?php echo base_url('assets/uploads/informasi/galery/'. $b->gambar); ?>" alt="Image" class="img-fluid tm-gallery-img" />
-								<figcaption>
-									<h4 class="tm-gallery-title"><?php echo $b->nama; ?></h4>
-									<p class="tm-gallery-description"><?php echo $b->deskripsi; ?></p>
+								<figcaption style="padding: 0 15px;">
+									<h4 class="tm-gallery-title" style="text-align: center;"><?php echo $b->nama; ?></h4>
+									<p class="tm-gallery-description" style="text-align: justify;"><?php echo mb_strimwidth("$b->deskripsi", 0, 150, "..."); ?></p>
 								</figcaption>
 							</figure>
 						</article>
+                    </a>
+						<div class="modal fade bd-example-modal-lg<?php echo $b->id; ?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel"><?php echo $b->nama; ?></h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body" style="padding: 0 15px;">
+										<img src="<?php echo base_url('assets/uploads/informasi/galery/'. $b->gambar); ?>" alt="Image" class="img-fluid text-center mb-3 mt-3" style="width: 100%;">
+										<figcaption>
+											<p class="tm-gallery-description" style="text-align: justify; font-size: 1em;">
+												<?php echo $b->deskripsi; ?>
+											</p>
+										</figcaption>
+									</div>
+								</div>
+							</div>
+						</div>
 
 					<?php } ?>
 

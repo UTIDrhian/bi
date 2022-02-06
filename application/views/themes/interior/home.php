@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<section id="home-section" class="hero">
+
     <div class="home-slider owl-carousel">
     <div class="slider-item" style="background-image: url(<?php echo get_theme_uri('images/bg_1.jpg'); ?>);">
         <div class="overlay"></div>
@@ -33,11 +33,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
   </div>
-</section>
 
-<section class="ftco-section" id="products">
+
+<!-- <section class="ftco-section" id="products"> -->
   
-  </section>
+ <!--  </section> -->
 
 
   <section class="ftco-section">

@@ -52,10 +52,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <button type="submit">Login</button>
             <?php echo form_close(); ?>
+             <p class="link"><a href="<?php echo site_url('auth/register'); ?>">Belum Punya Akun !</a></p>
         </div>
 
         <footer>
-            <p class="copyright-agileinfo"> &copy; 2022 <?php echo anchor(base_url(), get_store_name()); ?></p>
+            <p class="copyright-agileinfo"> Copyright &copy; 2022 <?php echo anchor(base_url(), get_store_name()); ?></p>
         </footer>
 
     </body>

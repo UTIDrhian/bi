@@ -83,15 +83,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="p-t-30">
                             <button class="btn btn--radius btn--green" type="submit">Daftar</button>
                         </div>
-                       &nbsp;
-                       
+                    
+                        <p class="link"><a href="<?php echo site_url('auth/login'); ?>">Sudah Punya Akun !</a></p>
+                    
                     </form>
                 </div>
+
             </div>
         </div>
-    </div>
+   
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-
+<!-- This templates was made by Colorlib (https://colorlib.com) -->
+<footer> <p class="copyright-agileinfo" style="text-align: center; padding-top: 30px;" > Copyright &copy; 2022 <?php echo anchor(base_url(), get_store_name()); ?></p></footer>
+ </div>
+</body>
 </html>
 <!-- end document-->

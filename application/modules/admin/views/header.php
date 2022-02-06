@@ -60,9 +60,7 @@ $query = $this->input->get('search_query');
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo site_url('admin/informasi'); ?>">
-
                 <i class="fa fa-list-alt text-info"></i>
-
                 <span class="nav-link-text">Manage Informasi</span>
               </a>
             </li>
