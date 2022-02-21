@@ -51,7 +51,7 @@
 										<div class="divider"></div>
 										<a class="dropdown-item" href="<?php echo site_url('auth/logout'); ?>">Logout</a>
 										<?php else : ?>
-											<a class="dropdown-item" href="<?php echo site_url('auth/login'); ?>">Masuk Log</a>
+											<a class="dropdown-item" href="<?php echo site_url('auth/login'); ?>">Login</a>
 											<a class="dropdown-item" href="<?php echo site_url('auth/register'); ?>">Daftar</a>
 										<?php endif; ?>
 									</div>

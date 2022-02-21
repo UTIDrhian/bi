@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	          <li class="nav-item active"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
 	          <li class="nav-item active"><a href="<?php echo site_url('index'); ?>" class="nav-link">Galery</a></li>
 	          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+              <a class="nav-link dropdown-toggle" href="<?= base_url('index.php/home/'); ?>" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
                 <a class="dropdown-item" href="<?php echo site_url('shop/cart'); ?>">Keranjang Belanja</a>
                 <a class="dropdown-item" href="<?php echo site_url('customer/payments/confirm'); ?>">Konfirmasi Pembayaran</a>
@@ -92,7 +92,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				  <div class="divider"></div>
 				  <a class="dropdown-item" href="<?php echo site_url('auth/logout'); ?>">Logout</a>
 				  <?php else : ?>
-              	  <a class="dropdown-item" href="<?php echo site_url('auth/login'); ?>">Masuk Log</a>
+              	  <a class="dropdown-item" href="<?php echo site_url('auth/login'); ?>">Login</a>
 				  <a class="dropdown-item" href="<?php echo site_url('auth/register'); ?>">Daftar</a>
 				  <?php endif; ?>
               </div>

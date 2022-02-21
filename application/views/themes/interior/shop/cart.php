@@ -62,17 +62,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="row justify-content-end">
             <div class="col-lg-4 mt-5 cart-wrap ftco-animate">
-              <div class="cart-total mb-3">
-                <h3>Kode Kupon</h3>
-                <p>Punya kode kupon? Gunakan kupon kamu untuk mendapatkan potongan harga menarik</p>
-
-                <div class="form-group">
-                  <label for="code">Kode:</label>
-                  <input id="code" name="coupon_code" type="text" class="form-control text-left px-3" placeholder="">
-                </div>
-
-              </div>
-
             </div>
 
             <div class="col-lg-4 mt-5 cart-wrap ftco-animate">

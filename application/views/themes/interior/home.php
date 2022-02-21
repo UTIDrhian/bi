@@ -2,42 +2,9 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-    <div class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url(<?php echo get_theme_uri('images/bg_1.jpg'); ?>);">
-        <div class="overlay"></div>
-      <div class="container">
-        <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-
-          <div class="col-md-12 ftco-animate text-center">
-            <h1 class="mb-2">Kami Melayani Jasa Desain Interior Mobil</h1>
-            <h2 class="subheading mb-4">Menggunakan Bahan Pilihan</h2>
-            <p><a href="#products" class="btn btn-primary">Pesan Sekarang</a></p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="slider-item" style="background-image: url(<?php echo get_theme_uri('images/bg_2.jpg'); ?>);">
-        <div class="overlay"></div>
-      <div class="container">
-        <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
-
-          <div class="col-sm-12 ftco-animate text-center">
-              <h1 class="mb-2">Kami Melayani Jasa Desain Interior Mobil</h1>
-            <h2 class="subheading mb-4">Menggunakan Bahan Pilihan</h2>
-            <p><a href="#products" class="btn btn-primary">Di Sini :)</a></p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-<!-- <section class="ftco-section" id="products"> -->
+<section class="ftco-section" id="products">
   
- <!--  </section> -->
+  </section>
 
 
   <section class="ftco-section">

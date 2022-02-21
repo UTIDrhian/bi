@@ -9,9 +9,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="col-lg-6 col-7">
           <h6 class="h2 text-white d-inline-block mb-0">Order #<?php echo $data->order_number; ?></h6>
         </div>
-        <div class="col-lg-6 col-5 text-right">
-          <a href="<?php echo site_url('admin/orders/pdf/' . $data->id); ?>" class="btn btn-info"><i class="fa fa-print"></i> Print</a>
-        </div>
+       <!--  <div class="col-lg-6 col-5 text-right">
+          <a href="<?php// echo site_url('admin/orders/pdf/' . $data->id); ?>" class="btn btn-info"><i class="fa fa-print"></i> Print</a>
+        </div> -->
       </div>
     </div>
   </div>

@@ -33,7 +33,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="col-md-3 d-flex">
             <div class="info bg-white p-4">
-              <p><span>Website</span> www.tokosayur22.com</p>
+              <p><span>Website</span> www.BandungInterior.com</p>
             </div>
         </div>
       </div>
@@ -69,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-6 d-flex">
             <div style="width: 100%">
-                <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=-3.7576348,102.2873882&amp;q=Kost%20Indah%20Jaya%20Belakang%20No.%2019%2C%20Jl.%20Palopo%20Baru%20VI%2C%20Kandang%20Limun%2C%20Bengkulu+(Bandung%20Interior%2022)&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.143507109606!2d120.18220704741334!3d-2.9380019559822386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d91613cf98e10e5%3A0x23490d1d548c8937!2sBengkel%20Bandung%20Interior!5e0!3m2!1sid!2sid!4v1644592354897!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     <a href="https://www.maps.ie/coordinates.html">Temukan Lokasi Saya</a>
                 </iframe>
             </div>

@@ -76,10 +76,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="<?php echo site_url('customer'); ?>" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dasbor
+                Dasbor 
               </p>
             </a>
           </li>
+         
           <li class="nav-item">
             <a href="<?php echo site_url('customer/orders'); ?>" class="nav-link">
               <i class="nav-icon fas fa-shopping-cart"></i>
