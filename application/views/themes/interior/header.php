@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="<?php echo base_url(); ?>"><?php echo get_store_name(); ?></a>
+	      <a class="navbar-brand" href="<?php echo site_url('home'); ?>"><?php echo get_store_name(); ?></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -69,9 +69,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
-	          <li class="nav-item active"><a href="<?php echo site_url('index'); ?>" class="nav-link">Galery</a></li>
+	          <li class="nav-item active"><a href="<?php echo site_url('index#galery'); ?>" class="nav-link">Galery</a></li>
 	          <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="<?= base_url('index.php/home/'); ?>" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+              <a href="<?= base_url('index.php/home/'); ?>" class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
                 <a class="dropdown-item" href="<?php echo site_url('shop/cart'); ?>">Keranjang Belanja</a>
                 <a class="dropdown-item" href="<?php echo site_url('customer/payments/confirm'); ?>">Konfirmasi Pembayaran</a>

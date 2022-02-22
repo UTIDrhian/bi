@@ -40,6 +40,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <textarea name="note" class="form-control" id="note"></textarea>
           </div>
 
+
+
+
+          <div class="cart-detail mt-5 p-3 p-md-4">
+            <h3 class="billing-heading mb-4">Keterangan:</h3>
+            <p>
+              <span style="font-style: italic;">
+                "Produk yang Kami Sediakan Berupa Jasa Sehingga Anda Dapat Melakukan Pemesanan Dengan Jumlah Yang Anda Kehendaki Tanpa Adanya Batasan Stok. <br><br>
+
+                Waktu Pengerjaan Tergantung Jumlah Pesanan dan Tingkat Kesulitan! <br><br>
+
+                Kami Akan Segera Menghubungi Anda Setelah Proses Pembayaran Berhasil Dilakukan Untuk Informasi Lebih Lanjut!"<br><br>
+
+                Informasi Lebih Lanjut, <a href="<?php echo site_url('pages/contact'); ?>">Hubungi Kami</a>
+              </span>
+            </p>
+          </div>
+
         </div>
         <div class="col-xl-5">
           <div class="row mt-5 pt-3">
