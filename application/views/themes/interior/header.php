@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<script src="<?php echo get_theme_uri('js/jquery-migrate-3.0.1.min.js'); ?>"></script>
   </head>
   <body class="goto-here">
-		<div class="py-1" style="background-color: #00e4ff;">
+		<div class="py-1" style="background-color: #000000;">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
 	    		<div class="col-lg-12 d-block">
@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    </div>
 		  </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar  ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" href="<?php echo site_url('home'); ?>"><?php echo get_store_name(); ?></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,8 +68,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="<?php echo base_url(); ?>" class="nav-link">Home</a></li>
-	          <li class="nav-item active"><a href="<?php echo site_url('index#galery'); ?>" class="nav-link">Galery</a></li>
+	          <li class="nav-item active"><a href="<?= base_url('index.php/home/'); ?>" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="<?php echo site_url('pages/galery'); ?>" class="nav-link">Galery</a></li>
 	          <li class="nav-item dropdown">
               <a href="<?= base_url('index.php/home/'); ?>" class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">

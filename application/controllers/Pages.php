@@ -22,6 +22,15 @@ class Pages extends CI_Controller {
         get_footer();
     }
 
+public function galery()
+    {
+        $params['reviews'] = $this->review->get_all_reviews();
+
+        get_header(get_store_name());
+        get_template_part('pages/galery', $params);
+        get_footer();
+    }
+
     public function contact()
     {
         $profile = user_data();
