@@ -32,7 +32,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </ul>
 
     <ul class="navbar-nav ml-auto">
+    	<button style="border-radius: 0.5rem;"><a href="<?= base_url('index.php/belanja/'); ?>" class="small-box-footer">Order Sekarang <i class="fas fa-cart-plus"></i></a></button>
       <li class="nav-item dropdown">
+
     <form class="form-inline ml-3" action="<?php echo site_url('customer/orders/search'); ?>" method="GET">
           <div class="input-group input-group-sm">
             <input class="form-control form-control-navbar" type="search" value="" name="query" placeholder="Cari order..." aria-label="Search">
@@ -54,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <a href="<?php echo site_url(); ?>" class="brand-link">
       <img src="<?php echo get_store_logo(); ?>" alt="<?php echo get_store_name(); ?> Logo" class="brand-image img-circle elevation-6"
            style="opacity: .8">
-      <span class="brand-text font-weight-light"><?php echo get_store_name(); ?></span>
+      <span class="brand-text font-weight-light"> Hello :)</span>
     </a>
 
     <!-- Sidebar -->
@@ -63,7 +65,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
           <img src="<?php echo get_user_image(); ?>" class="img-circle elevation-2" alt="Foto profil 
-          <?php// echo get_user_name(); ?>">
+          <?php echo get_user_name(); ?>">
         </div>
         <div class="info">
           <a href="<?php echo site_url('customer/profile'); ?>" class="d-block"><?php echo get_user_name(); ?></a>

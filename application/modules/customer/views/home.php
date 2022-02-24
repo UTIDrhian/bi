@@ -6,14 +6,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dasbor</h1>
+            <h1 class="m-0 text-dark">Dasbor Customer</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <?php if ($flash) : ?>
               <div class="text-success font-weight-bold"><?php echo $flash; ?></div>
               <?php else : ?>
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="<?= base_url('index.php/home/'); ?>">Home</a></li>
               <li class="breadcrumb-item active">Dasbor</li>
             </ol>
               <?php endif; ?>
