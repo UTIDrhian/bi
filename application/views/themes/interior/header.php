@@ -69,14 +69,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active"><a href="<?= base_url('index.php/home/'); ?>" class="nav-link">Home</a></li>
+					<li class="nav-item active"><a href="<?= base_url('index.php/belanja/'); ?>" class="nav-link">Belanja</a></li>
 					<li class="nav-item active"><a href="<?php echo site_url('pages/galery'); ?>" class="nav-link">Galery</a></li>
-					<li class="nav-item dropdown">
+					<!-- <li class="nav-item dropdown">
 						<a href="<?= base_url('index.php/home/'); ?>" class="nav-link dropdown-toggle" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown04">
 							<a class="dropdown-item" href="<?php echo site_url('shop/cart'); ?>">Keranjang Belanja</a>
 							<a class="dropdown-item" href="<?php echo site_url('customer/payments/confirm'); ?>">Konfirmasi Pembayaran</a>
 						</div>
-					</li>
+					</li> -->
 					<li class="nav-item"><a href="<?php echo site_url('pages/about'); ?>" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="<?php echo site_url('pages/contact'); ?>" class="nav-link">Kontak</a></li>
 					<li class="nav-item dropdown">

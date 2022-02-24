@@ -69,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-6 d-flex">
             <div style="width: 100%">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.143507109606!2d120.18220704741334!3d-2.9380019559822386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d91613cf98e10e5%3A0x23490d1d548c8937!2sBengkel%20Bandung%20Interior!5e0!3m2!1sid!2sid!4v1644592354897!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1992.287410305734!2d120.182759!3d-2.93778!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x23490d1d548c8937!2sBengkel%20Bandung%20Interior!5e0!3m2!1sid!2sid!4v1645715160161!5m2!1sid!2sid" width="480" height="561" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     <a href="https://www.maps.ie/coordinates.html">Temukan Lokasi Saya</a>
                 </iframe>
             </div>

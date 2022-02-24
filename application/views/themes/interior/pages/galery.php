@@ -19,22 +19,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   .hidden {
     display: none !important;
   }
+
 </style>
 <link href="<?php echo get_theme_uri('css/templatemo-style.css'); ?>" rel="stylesheet" />
 
-<section class="ftco-section testimony-section">
+<section class="ftco-section testimony-section" style="margin-top: -5%;">
   <div class="container">
-    <div class="row justify-content-center mb-5 pb-3">
+    <div class="row justify-content-center mb-5 pb-3" >
       <div class="col-md-7 heading-section ftco-animate text-center">
         <span class="subheading">Sistem Informasi Penjualan Desain Interior Mobil</span>
-        <h2 class="mb-4">Galeri & Bahan</h2>
+        <h2 class="mb-4" >Galeri & Bahan</h2>
       </div>
     </div>
     <div class="row ftco-animate">
       <div class="col-md-12">
         <div class="tm-paging-links" id="galery">
           <nav>
-            <ul>
+            <ul style="padding-left: 1%; margin-top:-6%;">
               <li class="tm-paging-item"><a href="#galery" class="tm-paging-link active" style="text-decoration: none;">Galery</a></li>
               <li class="tm-paging-item"><a href="#galery" class="tm-paging-link" style="text-decoration: none;">Bahan</a></li>
             </ul>
@@ -77,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $bahan = $this->db->query("SELECT * FROM informasi WHERE kategori = 'Bahan'")->result();
             foreach ($bahan as $b) {
               ?>
-              <a href="<?php echo site_url('pages/galery_show/').$b->id; ?>" style="text-decoration: none;">
+              <a href="<?php echo site_url('pages/bahan_show/').$b->id; ?>" style="text-decoration: none;">
                 <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
                   <figure class="galeri-desain">
                     <img src="<?php echo base_url('assets/uploads/informasi/galery/'. $b->gambar); ?>" alt="Image" class="img-fluid tm-gallery-img" />
@@ -112,3 +113,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       });
     });
   </script>
+

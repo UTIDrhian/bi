@@ -2,8 +2,14 @@
   defined('BASEPATH') OR exit('No direct script access allowed');
   ?>
 
-  <section class="ftco-section">
-   <!--  <div class="container">
+  <section class="ftco-section" style="margin-top: -5%;">
+    <div class="container">
+    	<div class="row justify-content-center mb-5 pb-3">
+      <div class="col-md-7 heading-section ftco-animate text-center">
+        <span class="subheading">Sistem Informasi Penjualan Desain Interior Mobil</span>
+        <h2 class="mb-4">Jasa Desain yang Tersedia</h2>
+      </div>
+    </div>
       <div class="row">
         <?php if ( count($products) > 0) : ?>
           <?php foreach ($products as $product) : ?>
@@ -47,7 +53,7 @@
         <?php endif; ?>
 
       </div>
-    </div> -->
+    </div>
   </section>
 
 
