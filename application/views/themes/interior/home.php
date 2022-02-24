@@ -1,5 +1,5 @@
   <?php
-    defined('BASEPATH') OR exit('No direct script access allowed');
+  defined('BASEPATH') OR exit('No direct script access allowed');
   ?>
 
   <section class="ftco-section">
@@ -49,7 +49,6 @@
       </div>
     </div>
   </section>
-
 
 
   <section class="ftco-section testimony-section">

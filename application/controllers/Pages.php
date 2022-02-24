@@ -22,12 +22,23 @@ class Pages extends CI_Controller {
         get_footer();
     }
 
-public function galery()
+    public function galery()
     {
         $params['reviews'] = $this->review->get_all_reviews();
 
         get_header(get_store_name());
         get_template_part('pages/galery', $params);
+        get_footer();
+    }
+
+    public function galery_show($id)
+    {
+        $params['reviews'] = $this->review->get_all_reviews();
+        $params['id'] = $id;
+
+
+        get_header(get_store_name());
+        get_template_part('pages/galery-show', $params);
         get_footer();
     }
 
