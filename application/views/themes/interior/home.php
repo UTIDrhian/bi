@@ -1,6 +1,76 @@
   <?php
   defined('BASEPATH') OR exit('No direct script access allowed');
   ?>
+<section id="home-section" class="hero">
+    <div class="home-slider owl-carousel">
+
+    <div class="slider-item" style="background-image: url(<?php echo get_theme_uri('images/bg_2.jpg'); ?>);">
+        <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+          <div class="col-sm-12 ftco-animate text-center">
+            <h1 class="mb-2">Desain Interior Mobil</h1>
+            <h2 class="subheading mb-4">Melayani Jasa Desain Interior Mobil</h2>
+            <p><a href="<?= base_url('index.php/belanja/'); ?>" class="btn btn-primary">Order Sekarang</a></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ftco-section" id="products">
+      <div class="container">
+          <div class="row no-gutters ftco-services">
+    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+      <div class="media block-6 services mb-md-0 mb-4">
+        <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-shipped"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Gratis Ongkir</h3>
+          <span>Area Kota Palopo <?php// echo format_rupiah(get_settings('min_shop_to_free_shipping_cost')); ?></span>
+        </div>
+      </div>      
+    </div>
+    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+      <div class="media block-6 services mb-md-0 mb-4">
+        <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-profesional"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Pelayanan Terbaik</h3>
+          <span>Profesional</span>
+        </div>
+      </div>    
+    </div>
+    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+      <div class="media block-6 services mb-md-0 mb-4">
+        <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-award"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Kualitas Terbaik</h3>
+          <span>Menggunakan Bahan Pilihan</span>
+        </div>
+      </div>      
+    </div>
+    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+      <div class="media block-6 services mb-md-0 mb-4">
+        <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-customer-service"></span>
+        </div>
+        <div class="media-body">
+          <h3 class="heading">Bantuan</h3>
+          <span>Bantuan 24/7 Selalu Online</span>
+        </div>
+      </div>      
+    </div>
+  </div>
+      </div>
+  </section>
 
   <section class="ftco-section">
    <!--  <div class="container">
