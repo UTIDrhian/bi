@@ -36,6 +36,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	
 	<script src="<?php echo get_theme_uri('js/jquery.min.js'); ?>"></script>
 	<script src="<?php echo get_theme_uri('js/jquery-migrate-3.0.1.min.js'); ?>"></script>
+
+	<link rel="stylesheet" href="<?php echo base_url('assets/si/css/flickity.css'); ?>">
+	<script src="<?php echo base_url('assets/si/js/flickity.pkgd.js'); ?>"></script>
+
+	<link rel="stylesheet" href="<?php echo base_url('assets/si/css/partner.css'); ?>">
+	<script src="<?php echo base_url('assets/si/js/partner.js'); ?>"></script>
+
 </head>
 <body class="goto-here">
 	<div class="py-1" style="background-color: #000000;">

@@ -1,83 +1,90 @@
   <?php
   defined('BASEPATH') OR exit('No direct script access allowed');
   ?>
-<section id="home-section" class="hero">
+
+  <section id="home-section" class="hero">
     <div class="home-slider owl-carousel">
 
-    <div class="slider-item" style="background-image: url(<?php echo get_theme_uri('images/bg_2.jpg'); ?>);">
+      <div class="slider-item" style="background-image: url(<?php echo get_theme_uri('images/bg_2.jpg'); ?>);">
         <div class="overlay"></div>
-      <div class="container">
-        <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+        <div class="container">
+          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
-          <div class="col-sm-12 ftco-animate text-center">
-            <h1 class="mb-2">Desain Interior Mobil</h1>
-            <h2 class="subheading mb-4">Melayani Jasa Desain Interior Mobil</h2>
-            <p><a href="<?= base_url('index.php/belanja/'); ?>" class="btn btn-primary">Order Sekarang</a></p>
+            <div class="col-sm-12 ftco-animate text-center">
+              <h1 class="mb-2">Desain Interior Mobil</h1>
+              <h2 class="subheading mb-4">Melayani Jasa Desain Interior Mobil</h2>
+              <p><a href="<?= base_url('index.php/belanja/'); ?>" class="btn btn-primary">Order Sekarang</a></p>
+            </div>
+
           </div>
-
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="ftco-section" id="products">
-      <div class="container">
-          <div class="row no-gutters ftco-services">
-    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-      <div class="media block-6 services mb-md-0 mb-4">
-        <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
+  <section class="ftco-section" id="products">
+    <div class="container">
+      <div class="row no-gutters ftco-services">
+        <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+          <div class="media block-6 services mb-md-0 mb-4">
+            <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
               <span class="flaticon-shipped"></span>
+            </div>
+            <div class="media-body">
+              <h3 class="heading">Gratis Ongkir</h3>
+              <span>Area Kota Palopo <?php// echo format_rupiah(get_settings('min_shop_to_free_shipping_cost')); ?></span>
+            </div>
+          </div>      
         </div>
-        <div class="media-body">
-          <h3 class="heading">Gratis Ongkir</h3>
-          <span>Area Kota Palopo <?php// echo format_rupiah(get_settings('min_shop_to_free_shipping_cost')); ?></span>
+        <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+          <div class="media block-6 services mb-md-0 mb-4">
+            <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
+              <span class="flaticon-proffesional"></span>
+            </div>
+            <div class="media-body">
+              <h3 class="heading">Pelayanan Terbaik</h3>
+              <span>Profesional</span>
+            </div>
+          </div>    
         </div>
-      </div>      
-    </div>
-    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-      <div class="media block-6 services mb-md-0 mb-4">
-        <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
-              <span class="flaticon-profesional"></span>
-        </div>
-        <div class="media-body">
-          <h3 class="heading">Pelayanan Terbaik</h3>
-          <span>Profesional</span>
-        </div>
-      </div>    
-    </div>
-    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-      <div class="media block-6 services mb-md-0 mb-4">
-        <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
+        <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+          <div class="media block-6 services mb-md-0 mb-4">
+            <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
               <span class="flaticon-award"></span>
+            </div>
+            <div class="media-body">
+              <h3 class="heading">Kualitas Terbaik</h3>
+              <span>Menggunakan Bahan Pilihan</span>
+            </div>
+          </div>      
         </div>
-        <div class="media-body">
-          <h3 class="heading">Kualitas Terbaik</h3>
-          <span>Menggunakan Bahan Pilihan</span>
-        </div>
-      </div>      
-    </div>
-    <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-      <div class="media block-6 services mb-md-0 mb-4">
-        <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
+        <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+          <div class="media block-6 services mb-md-0 mb-4">
+            <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
               <span class="flaticon-customer-service"></span>
+            </div>
+            <div class="media-body">
+              <h3 class="heading">Bantuan</h3>
+              <span>Bantuan 24/7 Selalu Online</span>
+            </div>
+          </div>      
         </div>
-        <div class="media-body">
-          <h3 class="heading">Bantuan</h3>
-          <span>Bantuan 24/7 Selalu Online</span>
-        </div>
-      </div>      
-    </div>
-  </div>
       </div>
+    </div>
   </section>
 
   <section class="ftco-section">
-   <!--  <div class="container">
-      <div class="row">
+    <div class="container">
+      <div class="row justify-content-center mb-3 pb-3">
+        <div class="col-md-7 heading-section ftco-animate text-center">
+          <span class="subheading">Produk Kami</span>
+          <h2 class="mb-4">Lihat Apa Yang Kami Tawarkan!</h2>
+        </div>
+      </div>
+      <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
         <?php if ( count($products) > 0) : ?>
           <?php foreach ($products as $product) : ?>
-            <div class="col-md-6 col-lg-3 ftco-animate">
+            <div class="gallery-cell col-md-6 col-lg-3 ftco-animate">
               <div class="product">
                 <a href="<?php echo site_url('shop/product/'. $product->id .'/'. $product->sku .'/'); ?>" class="img-prod">
                   <img class="img-fluid" src="<?php echo base_url('assets/uploads/products/'. $product->picture_name); ?>" alt="<?php echo $product->name; ?>">
@@ -117,7 +124,7 @@
         <?php endif; ?>
 
       </div>
-    </div> -->
+    </div>
   </section>
 
 
@@ -157,3 +164,56 @@
       </div>
     </div>
   </section>
+
+
+  <section class="ftco-section testimony-section">
+    <div class="container">
+      <div class="row justify-content-center mb-3 pb-3">
+        <div class="col-md-7 heading-section ftco-animate text-center">
+          <span class="subheading">Partner Kami</span>
+        </div>
+      </div>
+      <div class="brands">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="brands_slider_container">
+                <div class="owl-carousel owl-theme brands_slider">
+                  <div class="owl-item">
+                    <div class="brands_item d-flex flex-column justify-content-center"><img src="<?php echo base_url('assets/partner/audi.png'); ?>" alt=""></div>
+                  </div>
+                  <div class="owl-item">
+                    <div class="brands_item d-flex flex-column justify-content-center"><img src="<?php echo base_url('assets/partner/daihatsu.png'); ?>" alt=""></div>
+                  </div>
+                  <div class="owl-item">
+                    <div class="brands_item d-flex flex-column justify-content-center"><img src="<?php echo base_url('assets/partner/vw.png'); ?>" alt=""></div>
+                  </div>
+                  <div class="owl-item">
+                    <div class="brands_item d-flex flex-column justify-content-center"><img src="<?php echo base_url('assets/partner/bmw.png'); ?>" alt=""></div>
+                  </div>
+                  <div class="owl-item">
+                    <div class="brands_item d-flex flex-column justify-content-center"><img src="<?php echo base_url('assets/partner/toyota.png'); ?>" alt=""></div>
+                  </div>
+                  <div class="owl-item">
+                    <div class="brands_item d-flex flex-column justify-content-center"><img src="<?php echo base_url('assets/partner/chevrolet.png'); ?>" alt=""></div>
+                  </div>
+                  <div class="owl-item">
+                    <div class="brands_item d-flex flex-column justify-content-center"><img src="<?php echo base_url('assets/partner/honda.png'); ?>" alt=""></div>
+                  </div>
+                  <div class="owl-item">
+                    <div class="brands_item d-flex flex-column justify-content-center"><img src="<?php echo base_url('assets/partner/uteknoid.png'); ?>" alt=""></div>
+                  </div>
+                </div> <!-- Brands Slider Navigation -->
+                <div class="brands_nav brands_prev"><i class="fas fa-chevron-left"></i></div>
+                <div class="brands_nav brands_next"><i class="fas fa-chevron-right"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
