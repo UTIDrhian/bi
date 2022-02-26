@@ -136,7 +136,7 @@ class Products extends CI_Controller {
             $price = $this->input->post('price');
             $stock = $this->input->post('stock');
             $unit = $this->input->post('unit');
-            $desc = $this->input->post('desc');
+            $desc = $this->input->post('description');
             $date = date('Y-m-d H:i:s');
 
             $config['upload_path'] = './assets/uploads/products/';
@@ -231,7 +231,7 @@ class Products extends CI_Controller {
             $discount = $this->input->post('price_discount');
             $stock = $this->input->post('stock');
             $unit = $this->input->post('unit');
-            $desc = $this->input->post('desc');
+            $desc = $this->input->post('description');
             $available = $this->input->post('is_available');
             $date = date('Y-m-d H:i:s');
 
